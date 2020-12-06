@@ -179,12 +179,16 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
   // Here we create a legend control object.
   let legend = L.control({
-    position: "bottomright"
+    position: "bottomright",
   });
 
   // Then add all the details for the legend
   legend.onAdd = function() {
     let div = L.DomUtil.create("div", "info legend");
+    div.innerHTML = `
+    <div class="info legend">
+      <h3 margin:0px;>Earthquake<br>Magnitude</h3>
+    </div>`
 
     const magnitudes = [0, 1, 2, 3, 4, 5];
     const colors = [
@@ -208,7 +212,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
   // Finally, we add our legend to the map.
   legend.addTo(map);
-
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
