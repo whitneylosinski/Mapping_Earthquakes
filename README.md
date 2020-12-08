@@ -2,7 +2,7 @@
 
 <hr>
 
-<strong>Deployed Project URL:  </strong> https://whitneylosinski.github.io/Mapping_Earthquakes/
+<strong>Deployed Project URL:  </strong> https://whitneylosinski.github.io/Mapping_Earthquakes/Earthquake_Challenge/
 <hr>
 
 ### Project Purpose
