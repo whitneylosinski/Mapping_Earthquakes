@@ -19,7 +19,7 @@ Data: </br>
 
 Tools: JavaScript ES6, HTML/CSS, D3.js, Leaflet
 
-## Project Steps
+### Project Steps
 1. Make API requests to the mapbox server to host the different map styles.
 2. Create the map object with the appropriate zoom and center location defined.
 3. Create the base layer of the map which holds the other map layers.
