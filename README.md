@@ -1,10 +1,5 @@
 # Mapping Earthquakes
 
-<hr>
-
-<strong>Deployed Project URL:  </strong> https://whitneylosinski.github.io/Mapping_Earthquakes/Earthquake_Challenge/
-<hr>
-
 ### Project Purpose
 The purpose of this project was to create an interactive geopraphical map from GeoJSON data, showing the locations and magnitudes of all earthquakes occuring over the past 7 days along with the outer boundaries of the tectonic plates.  The goal was to visually illustrate the relationship between frequency, magnitude and location of seismic activity near major fault lines.
 
@@ -38,4 +33,4 @@ Tools: JavaScript ES6, HTML/CSS, D3.js, Leaflet
 16. Create the Tectonic Plates GeoJSON layer to plot the retrieved data and add the layer to the map.
 
 ### Project Results
-
+![Screenshot](Map.png)
