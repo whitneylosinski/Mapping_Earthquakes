@@ -1,11 +1,11 @@
 # Mapping Earthquakes
 
-### Project Purpose
+### Purpose
 The purpose of this project was to create an interactive geopraphical map from GeoJSON data, showing the locations and magnitudes of all earthquakes occuring over the past 7 days along with the outer boundaries of the tectonic plates.  The goal was to visually illustrate the relationship between frequency, magnitude and location of seismic activity near major fault lines.
 
 The project showcases how to use API requests to get geographical maps, how to retrieve and plot GeoJSON data using d3.json, and how to use the Leaflet JavaScript library to create layers and overlays on the map.
 
-### Project Resources
+### Resources
 Data: </br>
 - All earthquakes in past 7 days: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson </br>
 - Major earthquakes in past 7 days: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson </br>
@@ -14,7 +14,7 @@ Data: </br>
 
 Tools: JavaScript ES6, HTML/CSS, D3.js, Leaflet
 
-### Project Steps
+### Steps
 1. Make API requests to the mapbox server to host the different map styles.
 2. Create the map object with the appropriate zoom and center location defined.
 3. Create the base layer of the map which holds the other map layers.
@@ -32,5 +32,5 @@ Tools: JavaScript ES6, HTML/CSS, D3.js, Leaflet
 15. Retrieve the tectonic plate GeoJSON data using d3.json().
 16. Create the Tectonic Plates GeoJSON layer to plot the retrieved data and add the layer to the map.
 
-### Project Results
+### Results
 ![Screenshot](Map.png)
